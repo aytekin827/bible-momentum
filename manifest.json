@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Bible Momentum",
-  "version": "1.0",
+  "version": "1.1",
   "description": "God loves you!!! Make Moment of your day with Word of God!",
   "chrome_url_overrides": {
     "newtab": "index.html"

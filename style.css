@@ -1,0 +1,71 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: url('background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+.container {
+    text-align: center;
+    padding: 20px;
+    width: 75%;
+}
+
+.verse-container {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5); /* 배경과 텍스트 간의 대비를 위해 반투명 검은색 배경 추가 */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.verse-title {
+    color: #b3b3b3;
+    padding: 5px;
+    font-size: 0.8rem;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1.5em;
+    color: #ddd;
+}
+
+
+#languageSelect {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 100;
+    background-color: rgba(124, 124, 124, 0.11); /* White background with 70% opacity */
+    border: 1px solid rgba(124, 124, 124, 0.11); /* Optional: add a border to make it more visible */
+    color: #b3b3b3; /* Text color */
+    padding: 5px;
+    border-radius: 5px; /* Rounded corners */
+    font-size: 12px;
+    backdrop-filter: blur(5px); /* Optional: adds a subtle blur effect to the background */
+}
+    
+
+#clock {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 3em;
+    padding: 1em;
+}
+
+#verse {
+    width: 90%;
+    font-size: 1.8rem;
+    margin: 0 auto;
+    text-align: center;
+}
